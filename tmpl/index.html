@@ -1,0 +1,17 @@
+<?php
+/**
+ * INDEX PAGE TEMPLATE
+ *
+ * @var string $name Username
+ *
+ * @inherit _base.html
+ */
+$this->inherit('_base.html');
+?>
+
+<?php $this->begin_block('central_page'); ?>
+
+  <h1>Index Page</h1>
+  Your name is: <?php echo $name; ?>
+
+<?php $this->end_block(); ?>
